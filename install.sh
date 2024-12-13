@@ -5,7 +5,7 @@ echo "Updating and installing required things"
 pkg update && pkg upgrade -y
 pkg install wget cmake
 echo "Cloning and starting compiling"
-git clone https://github.com/xmrig/xmrig.git
+git clone https://github.com/Foxedr/termux-miner.git
 mkdir xmrig/build
 cd xmrig/build
 # cmake
